@@ -1,0 +1,148 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
+#nav{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'SF Pro Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: clip;
+}
+#nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+}
+#nav .navbar .bbt{
+    max-width: 140px;
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-color: #0048D5;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'SF Pro Display', sans-serif; 
+    margin: auto;  
+}
+#nav .navbar .navbar-link{
+    float: left;
+    overflow: hidden;
+}
+#nav .navbar .navbar-link .link{
+    text-decoration: none;
+    color: #fff;
+}
+#nav .navbar .navbar-link:hover .link{
+    color: #0048D5;
+}
+#nav .navbar .navbar-link .menu{
+    position: absolute;
+    display: none;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    height: 228px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    margin-top: 4px;
+}
+#nav .navbar .navbar-link:hover .menu{
+    display: flex;
+    align-items: center;
+}
+
+#nav .navbar .navbar-link .menu .bo{
+    min-width: calc(100%/3.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nav .navbar .navbar-link .menu .bo .text{
+    max-width: 218px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 28px;
+}
+
+
+#nav .navbar .navbar-link .menu .bt{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 0 12px;
+    margin-top: 28px;
+}
+#nav .navbar .navbar-link .menu .bt ul{
+    list-style-type: none;
+    width: 50%;
+    margin: none;
+}
+#nav .navbar .navbar-link .menu .bt ul li{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+#nav .navbar .navbar-link .menu .bt ul li a{
+    text-decoration: none;
+    color: #0A142F;
+}
+#nav .navbar .navbar-link .menu .bt ul li:nth-child(1){
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+</style>
+<div id="nav">
+<nav class="navbar">
+    <div class="navbar-link">
+        <a class="link" href="#">Zip Binders</a>
+        <div class="menu">
+            <div class="bo">
+                <div class="text">carastristique de notre acrylique & cest proprieter anti uv</div>
+                <button class="bbt">Notre Acrylique</button>
+            </div>
+
+            <div class="bt">
+                <ul>
+                    <li><a href="#">Zip Binders Top Loader</a></li>
+                    <li><a href="#">Zip Binders Top Loader 216</a></li>
+                    <li><a href="#">Zip Binders Top Loader 96</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Zip Binders Carte</a></li>
+                    <li><a href="#">Zip Binders Carte 180</a></li>
+                    <li><a href="#">Zip Binders Carte 360</a></li>
+                    <li><a href="#">Zip Binders Carte 480</a></li>
+                       
+                </ul>
+            </div>
+
+            <div class="bo">
+                <img src="./assets/img.png" alt="">
+            </div>
+        </div>
+    </div>
+</nav>
+</div>
